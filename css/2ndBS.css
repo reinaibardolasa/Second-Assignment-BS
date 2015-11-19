@@ -10,16 +10,28 @@ header{
   padding: 10px;
 }
 
+.span8{
+  padding-left: 90px;
+}
+
 .navbar-default{
   float: right;
   background-color: yellow !important;
-  /*color: black !important;*/
+  padding-right: 80px;
+}
+
+.nav-pills li a{
+  color: black !important;
+}
+
+.nav-pills li a:hover{
+  color: #BB3416!important;
+  text-decoration: underline;
 }
 
 .images{
   display: inline-flex;
   margin: 0px !important;
-  /*background-color: black !important;*/
 }
 
 .carousel{
@@ -33,7 +45,6 @@ header{
 
 .span4{
   display: inline-flex;
-  /*padding-left:100px !important;*/
 }
 
 .span4 img{
@@ -45,7 +56,6 @@ header{
 
 .col-sm-12{
   float: center !important;
-  /*background-color: #6B6B6B !important;*/
   text-align: center;
   color: white;
   padding: 20px;
@@ -56,15 +66,51 @@ header{
   height: 200px;
   /*background-color: blue !important;*/
   margin: 0px !important;
+  text-align: left;
+}
+
+.btn-default{
+  background-color: yellow;
+}
+
+.form-control{
+  border: solid;
+}
+
+a{
+  color: yellow;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.articlelink{
+  text-decoration: none;
+  color: #BB3416;
+}
+
+.footerNav {
+  display: block;
+  color: white;
+}
+
+.footerNav.:hover {
+  display: block;
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+ul{
+  text-align: left;
 }
 
 .col-sm-3{
-
+  text-align: left;
 }
-/*.caption{
-  background-color: yellow !important;
-}*/
 
-/*.row1{
-  background-color: #6B6B6B !important;
-}*/
+.col-sm-4{
+  text-align: left;
+}
